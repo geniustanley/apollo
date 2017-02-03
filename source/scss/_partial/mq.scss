@@ -1,5 +1,10 @@
-main.container {
-    margin: 2em 10px;
+section.container {
+    margin: 2em 0;
+}
+
+.wrap {
+    box-sizing: border-box;
+    padding: 0 10px;
 }
 
 @media screen and (min-width: 700px) {
@@ -7,16 +12,19 @@ main.container {
         width: 700px;
         margin: 0 auto;
     }
-    header {
+    .header {
         padding: 20px 100px;
     }
 }
 
 @media screen and (max-width: 700px) {
+    body {
+        font-size: 18px;
+    }
     .wrap {
         width: 100%;
     }
-    header {
+    .header {
         padding: 20px 0;
         a.logo-link,
         ul.nav.nav-list {
@@ -28,7 +36,7 @@ main.container {
             padding: 10px 10px;
         }
     }
-    main.container,
+    section.container,
     .home.post-list,
     .archive {
         margin-top: 0;
@@ -38,7 +46,6 @@ main.container {
     }
     .post-content {
         h2, h3, h4, h5, h6 {
-            max-width: 300px;
             left: 15px;
         }
     }

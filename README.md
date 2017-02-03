@@ -1,5 +1,9 @@
 ![hexo-theme-apollo](https://cloud.githubusercontent.com/assets/9530963/13026956/08e76eca-d277-11e5-8bfc-2e80cea20a0d.png)
 
+## 自訂項目
+* 文字間距參考 [medium.com](https://medium.com/)
+* 引入 medium like zoom.js [demo](https://fat.github.io/zoom.js/)
+
 ## 文档
 
 - [中文文档](https://github.com/pinggod/hexo-theme-apollo/blob/master/doc%2Fdoc-zh.md)

@@ -1,8 +1,11 @@
 extends partial/layout
 
 block container
-    include mixins/post
-    +postList()
+    .wrap
+        include mixins/post
+        .tagcloud
+            != tagcloud(tags)
+        +postList()
 
 block pagination
     include mixins/paginator

@@ -1,5 +1,5 @@
 //- LaTex
-script(async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous")
+script(async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML")
 
 //- Analytics tracking
 - var ga = theme.ga
@@ -8,3 +8,9 @@ if ga
         | (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',
         != '"' + ga + '"'
         | ,'auto');ga('send','pageview');
+
+//- jQuery plugin Zoom.js https://github.com/fat/zoom.js/
+
+script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js")
+script(src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js")
+script(src="/js/zoom.js")

@@ -2,14 +2,16 @@ doctype
 html(lang=config.language)
     head
         include head
+        block meta
     body
         .wrap
-            header
+            .header
                 a.logo-link(href=url_for())
-                    img(src=url_for(theme.logo) alt="logo")
+                    img(src=theme.logo)
                 include nav
-            main.container
-                block container
+        section.container
+            block container
+        .wrap
             footer
                 block pagination
                 block copyright

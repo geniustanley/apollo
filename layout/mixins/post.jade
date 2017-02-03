@@ -1,8 +1,17 @@
 mixin postInfo(item)
-    .post-info
+    header.post-info
         != full_date(item.date, 'll')
         if item.from && (is_home() || is_post())
             a.post-from(href=item.from target="_blank" title=item.from) 翻译 · 原文地址
+        if is_home() || is_post()
+            div.fb-ir-time
+                time.op-modified(dateTime=item.date.toISOString())
+                time.op-published(dateTime=item.date.toISOString())
+            div.tags
+                - item.tags.each(function (tag) {
+                    a.tag-link(href='/tags/'+tag.name) #
+                        != tag.name
+                - })
 
 //- Index Page
 mixin posts()
@@ -13,9 +22,14 @@ mixin posts()
                     h2.post-title
                         a.post-title-link(href= url_for(item.path))
                             != item.title
+                    h3.post-subtitle
+                        != item.subtitle
                     +postInfo(item)
+                    a.post-banner(href= url_for(item.path))
+                        img(src= item.banner)
                     .post-content
-                        != item.excerpt
+                        - var excerpt = item.excerpt.replace(/(<\/\w+>)$/, '...$1')
+                        != excerpt
                     a.read-more(href= url_for(item.path))!= __('more')
         - })
 
@@ -40,8 +54,15 @@ mixin postList()
 mixin post(item)
     .post
         article.post-block
-            h1.post-title
-                != item.title
-            +postInfo(item)
-            .post-content
-                != item.content
+            .wrap
+                h1.post-title
+                    != item.title
+                h2.post-subtitle
+                    != item.subtitle
+                +postInfo(item)
+            .post-banner
+                img(src= item.banner)
+            .wrap
+                .post-content
+                    != item.content
+
