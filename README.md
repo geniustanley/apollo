@@ -28,6 +28,16 @@ archive_generator:
     daily: false
 ```
 
+## 自訂css
+
+本專案採用 gulp
+
+``` bash
+cd themes/achilles
+yarn
+yarn run sass
+```
+
 ## 更新
 
 ``` bash
