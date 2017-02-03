@@ -30,7 +30,7 @@ archive_generator:
 
 ## Customize css
 
-本專案採用 gulp
+After customize your own scss, you should run the scripts below to generate css
 
 ``` bash
 cd themes/achilles
