@@ -1,4 +1,4 @@
-## 特色
+## Features
 * 文字排版參考 [medium.com](https://medium.com/)
 * 引入 medium like zoom.js [demo](https://fat.github.io/zoom.js/)
 
@@ -12,7 +12,7 @@ npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap
 git clone https://github.com/geniustanley/hexo-theme-achilles themes/achilles
 ```
 
-## 啟用
+## Setting
 
 修改 `_config.yml` 的 `theme` 配置项为 `achilles`:
 
@@ -28,7 +28,7 @@ archive_generator:
     daily: false
 ```
 
-## 自訂css
+## Customize css
 
 本專案採用 gulp
 
@@ -38,7 +38,7 @@ yarn
 yarn run sass
 ```
 
-## 更新
+## Update
 
 ``` bash
 cd themes/achilles
