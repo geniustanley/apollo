@@ -1,4 +1,4 @@
-![Imgur](http://i.imgur.com/chOE4JP.png)
+![Imgur](http://i.imgur.com/bWbvIH7.png)
 
 ## Features
 * 文字排版參考 [medium.com](https://medium.com/)
