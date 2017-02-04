@@ -4,10 +4,6 @@
 * 文字排版參考 [medium.com](https://medium.com/)
 * 引入 medium like zoom.js [demo](https://fat.github.io/zoom.js/)
 
-## TODO
-font-family: microsoft-jhenghei
-more... => Readmore...
-
 ## Installation guide
 
 ``` bash
