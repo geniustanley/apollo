@@ -1,3 +1,5 @@
+![Imgur](http://i.imgur.com/chOE4JP.png)
+
 ## Features
 * 文字排版參考 [medium.com](https://medium.com/)
 * 引入 medium like zoom.js [demo](https://fat.github.io/zoom.js/)
