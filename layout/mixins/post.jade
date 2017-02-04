@@ -30,7 +30,7 @@ mixin posts()
                     .post-content
                         - var excerpt = item.excerpt.replace(/(<\/\w+>)$/, '...$1')
                         != excerpt
-                    a.read-more(href= url_for(item.path))!= __('more')
+                    a.read-more(href= url_for(item.path))!= __('Readmore...')
         - })
 
 //- Archive Page
