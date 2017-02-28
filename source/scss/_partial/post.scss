@@ -35,7 +35,7 @@
 
         .tag-link {
           padding-right: 10px;
-          color: #42b983;
+          color: #FB4D42;
           display: inline-block;
         }
     }
@@ -53,7 +53,7 @@
         margin: 1em 0;
         &:before {
             content: "#";
-            color: #42b983;
+            color: #FB4D42;
             position: absolute;
             left: -0.7em;
             top: -4px;
@@ -76,13 +76,13 @@
         font-size: 22px;
     }
     a {
-        color: #42b983;
+        color: #FB4D42;
         word-break: break-all;
     }
     blockquote {
         margin: 2em 0;
         padding-left: 20px;
-        border-left: 4px solid #42b983;
+        border-left: 4px solid #FB4D42;
         font-style: italic;
         font-size: 18px;
         line-height: 2.0;
@@ -241,7 +241,7 @@ pre {
     .symbol .string,
     .value,
     .regexp {
-        color: #42b983;
+        color: #FB4D42;
     }
     .title {
         color: #83B917;
@@ -270,7 +270,7 @@ pre {
     .apache .cbracket,
     .tex .command,
     .prompt {
-        color: #42b983;
+        color: #FB4D42;
     }
     .comment,
     .java .annotation,
