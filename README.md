@@ -47,6 +47,10 @@ cd themes/achilles
 git pull
 ```
 
+## TODOs
+- [ ] Bigger fonts for tagcloud
+
+
 ## License
 
 MIT
