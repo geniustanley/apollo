@@ -4,7 +4,7 @@ block meta
     if is_post()
         meta(property="og:title" content=page.title)
         meta(property="og:image" content=page.banner)
-        meta(property="og:description" content=strip_html(page.excerpt).replace(/^\s*/, '').replace(/\s*$/, ''))
+        meta(property="og:description" content=strip_html(page.excerpt).trim())
     
 
 block site_title
