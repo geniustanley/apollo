@@ -50,7 +50,7 @@ git pull
 ## TODOs
 - [ ] Bigger fonts for tagcloud
 - [ ] Add facebook og meta tag
-- [ ] Don't show html tag in post content
+- [ ] Modify og:description
 
 ## License
 
