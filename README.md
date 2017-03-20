@@ -50,7 +50,7 @@ git pull
 ## TODOs
 - [ ] Bigger fonts for tagcloud
 - [ ] Add facebook og meta tag
-- [ ] Modify og:description
+- [v] Modify og:description
 
 ## License
 
