@@ -11,6 +11,12 @@ logo: /favicon.png
 # e.g disqus: seansun
 disqus: geniustanley
 duoshuo:
+# gitment: 
+#     owner: geniustanley 
+#     repo: geniustanley.github.io.comments
+#     client_id: 185a79ed82c2ece9b1b9
+#     client_secret: 748a572af2860c92f8da40fbf1f3b3b1fab9fb1a
+    
 
 # Analytics
 # google-analytics:
