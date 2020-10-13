@@ -11,7 +11,7 @@ gulp.task('sass', function() {
 });
 
 // 实时编译
-gulp.task('default', ['sass'], function() {
+gulp.task('default', gulp.series('sass', function() {
     gulp.watch('./source/scss/_partial/*.scss', ['sass']);
     gulp.watch('./source/scss/*.scss', ['sass']);
-});
+}));
